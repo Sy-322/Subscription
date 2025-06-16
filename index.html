@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>サブスク管理</title>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <h1>サブスク管理アプリ</h1>
+  <button id="loginBtn">Googleでログイン</button>
+  <button id="logoutBtn" style="display:none;">ログアウト</button>
+
+  <div id="userInfo" style="display:none;">
+    <p id="userEmail"></p>
+
+    <input type="text" id="serviceName" placeholder="サービス名">
+    <input type="number" id="price" placeholder="月額料金">
+    <button id="addBtn">追加</button>
+
+    <ul id="list"></ul>
+  </div>
+</body>
+</html>
